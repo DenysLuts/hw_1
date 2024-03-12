@@ -7,4 +7,4 @@ def get_days_from_today(date):
         return delta.days
     except ValueError:
         return "Неправильний формат дати. Використовуйте формат 'РРРР-ММ-ДД'."
-print(get_days_from_today("2006-10-09"))
+print(get_days_from_today("2011-01-06"))
